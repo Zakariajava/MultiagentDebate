@@ -383,9 +383,9 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 👨‍💻 Autor
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-- Email: tu-email@ejemplo.com
+- GitHub: [@Zakariajava](https://github.com/Zakariajava)
+- LinkedIn: [Zakaria Abouhammadi](https://www.linkedin.com/in/zakaria-abouhammadi-52aa5b1a0/)
+- Email: zakariaabouhammadi@gmail.com
 
 ---
 
