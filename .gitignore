@@ -1,0 +1,143 @@
+# ============================================================
+# .gitignore para Sistema de Debates con IA
+# ============================================================
+
+# ----------------
+# CREDENCIALES Y CONFIGURACIÓN SENSIBLE
+# ----------------
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+.env.test
+
+# Streamlit secrets (solo para desarrollo local)
+.streamlit/secrets.toml
+
+# ----------------
+# LOGS Y ARCHIVOS TEMPORALES DEL SISTEMA
+# ----------------
+logs/
+*.log
+debate_*.log
+supervisor_*.log
+agent_*.log
+search_*.log
+error_*.log
+
+# ----------------
+# ARCHIVOS DE PYTHON
+# ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ----------------
+# ENTORNOS VIRTUALES
+# ----------------
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+debatesagent/
+.venv/
+
+# ----------------
+# TESTING Y COVERAGE
+# ----------------
+.coverage
+.pytest_cache/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+htmlcov/
+
+# ----------------
+# JUPYTER NOTEBOOKS
+# ----------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ----------------
+# BASES DE DATOS LOCALES
+# ----------------
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# ----------------
+# IDEs Y EDITORES
+# ----------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ----------------
+# SISTEMA OPERATIVO
+# ----------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ----------------
+# ARCHIVOS TEMPORALES
+# ----------------
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# ----------------
+# DOCUMENTACIÓN GENERADA
+# ----------------
+docs/_build/
+.readthedocs.yml
+
+# ----------------
+# ARCHIVOS DE CONFIGURACIÓN LOCAL
+# ----------------
+.local/
+*.local
+
+# ----------------
+# ARCHIVOS DE DEBATE EXPORTADOS (OPCIONALES)
+# ----------------
+# Descomenta si no quieres subir debates exportados
+# exports/
+# debate_*.json
+# debate_*.txt
